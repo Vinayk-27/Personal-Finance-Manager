@@ -1,0 +1,33 @@
+#xyz{
+    text-align: left;
+}
+#container{
+    height: 100%;
+    width: 100%;
+}
+#logo{
+    margin: 5px;
+    height: 50px;
+    border-radius: 100%;
+}
+#name_logo{
+    margin: 7px;
+    color: #f9fcff;
+}
+#nav_bar{
+    text-align: center;
+    align-items: center;
+}
+#cont{
+    display: flex;
+    flex-direction: row;
+}
+#contact-us{
+    margin: 10px;
+}
+#cont{
+    background-color: #081f5c;
+}
+#er{
+    background-color: #081f5c;
+}
