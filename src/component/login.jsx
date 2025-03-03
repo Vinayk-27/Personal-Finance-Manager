@@ -19,7 +19,7 @@ function Login() {
               <label className="form-label">Password</label>
               <input type="password" className="form-control" placeholder="Enter password" required />
             </div>
-            <button type="submit" className="btn btn-primary w-100" id="y">Login</button>
+            <button type="submit" className="btn btn-primary w-100" id="y"><a href="./home">Login</a></button>
             <div className="text-center mt-3">
               <a href="./signup" className="text-decoration-none" id="z">Sign-up</a><br />
               <a href="./forget" className="text-decoration-none" id="z">Forgot Password?</a>

@@ -1,5 +1,6 @@
 import React from 'react'
 import{BrowserRouter as Router,Routes,Route} from "react-router-dom";
+import Login from './login';
 
 function Signup() {
   return (
@@ -13,11 +14,11 @@ function Signup() {
         <form className=" text-start">
              <div className="mb-3">
             <label className="form-label">First Name</label>
-            <input type="email" className="form-control" placeholder="Enter First Name" required />
+            <input type="text" className="form-control" placeholder="Enter First Name" required />
           </div>
            <div className="mb-3">
             <label className="form-label">Last name</label>
-            <input type="email" className="form-control" placeholder="last name" required />
+            <input type="text" className="form-control" placeholder="last name" required />
           </div>
           <div className="mb-3">
             <label className="form-label">Email address</label>
@@ -27,7 +28,7 @@ function Signup() {
             <label className="form-label">Password</label>
             <input type="password" className="form-control" placeholder="Enter password" required />
           </div>
-          <button type="submit" className="btn btn-primary w-100" id="y">Signup</button>
+          <button className="btn btn-primary w-100" id="y" onClick={Login}>Signup</button>
           <div className="text-center mt-3">
             
             <a href="./" className="text-decoration-none" id="z">login</a><br/>
